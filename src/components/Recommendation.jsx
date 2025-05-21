@@ -4,7 +4,7 @@ export const Recommendation = () => {
 	return (
 		<section className="flex flex-col-reverse flex-reverse md:grid md:grid-cols-12 mb-20">
 			<div className="col-span-6  ">
-				<div className="flex gap-x-5 md:justify-start justify-center">
+				<div className="flex gap-x-5 md:justify-start justify-center md:p-0 px-6">
 					<img
 						className="md:w-[20%] w-[31%] object-cover rounded-md"
 						src="furniture1.jpg"
@@ -22,7 +22,7 @@ export const Recommendation = () => {
 					/>
 				</div>
 			</div>
-			<div className="col-span-6  px-20">
+			<div className="col-span-6 px-10 md:px-20">
 				<p className="text-2xl mb-6 text-center md:text-start">Categories</p>
 				<p className="md:text-5xl text-2xl font-bold text-primary mb-10 text-center md:text-start">
 					Furniture Sets Recommendations
