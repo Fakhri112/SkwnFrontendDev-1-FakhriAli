@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+@theme {
+	--font-sans: "Inter", sans-serif;
+	--color-primary: #2f241f;
+	--color-secondary: #e5f0b6;
+	--color-white: #fff;
+}
+
+.catalogue {
+	transition: margin-right 700ms !important;
+}
+.catalogue.shift {
+	margin-right: 100px !important;
+}
+
+.enlarge {
+	width: 100%;
+}
+
+.enlarge.open {
+	transition: width 600ms ease-in-out;
+	width: 120%;
+}
+
+.enlarge.close {
+	transition: width 600ms ease-in-out;
+	width: 100%;
+}
+
+.fade {
+	filter: opacity(0);
+}
+
+.fade.in {
+	transition: filter 600ms ease-in-out;
+	filter: opacity(1);
+}
+.fade.out {
+	transition: filter 600ms ease-in-out;
+	filter: opacity(0);
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 30;
+	top: 0;
+	right: 0;
+	background: rgba(243, 247, 255, 0.3);
+
+	box-shadow: 0 4px 30px rgba(25, 28, 39, 0.1);
+	backdrop-filter: blur(30px);
+	-webkit-backdrop-filter: blur(8.2px);
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav p {
+	min-width: 200px;
+	margin-bottom: 17px;
+	padding: 1px 8px 8px 32px;
+	text-decoration: none;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav p:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 30px;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
