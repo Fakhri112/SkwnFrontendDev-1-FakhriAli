@@ -15,7 +15,7 @@ Instalasi proyek ini pada dasarnya seperti proyek JavaScript modern lainnya meng
 
 ```bash
 # Clone repositori ini
-
+git clone https://github.com/Fakhri112/SkwnFrontendDev-1-FakhriAli.git
 
 # Install dependencies
 npm install
@@ -23,3 +23,6 @@ npm install
 # Jalankan project secara lokal
 npm run dev
 ```
+
+## Live Demo
+- [https://dekoor-fakhri.vercel.app/](https://dekoor-fakhri.vercel.app/)
