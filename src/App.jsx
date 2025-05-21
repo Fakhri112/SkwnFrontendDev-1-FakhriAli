@@ -10,7 +10,7 @@ import { WhyChoose } from "./components/WhyChoose";
 function App() {
 	return (
 		<>
-			<div className="">
+			<div className="overflow-hidden">
 				<Header />
 				<Introduction />
 				<WhyChoose />

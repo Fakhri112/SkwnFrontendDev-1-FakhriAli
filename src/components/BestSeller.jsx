@@ -60,7 +60,7 @@ export const BestSeller = () => {
 			<div className="md:px-20 mt-10 md:py-12 px-6 py-9  items-c flex justify-between">
 				<div>
 					<p className="text-white mb-5">OUR PRODUCTS</p>
-					<p className="text-white md:text-5xl font-bold">
+					<p className="text-white sm:text-2xl md:text-5xl font-bold">
 						This month's best seller
 					</p>
 				</div>
@@ -104,7 +104,7 @@ export const BestSeller = () => {
 								/>
 
 								<div
-									className={`absolute bottom-5 left-6 fade ${
+									className={`absolute bottom-5 left-3 fade ${
 										idx == firstSlide ? "in" : "out"
 									}`}>
 									<p className="bg-white/50 rounded-lg w-fit md:py-2 md:px-3 px-2 py-1 text-black">

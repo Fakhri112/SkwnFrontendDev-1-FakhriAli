@@ -3,7 +3,7 @@ import { Briefcase, MagnifierWhite } from "../assets/Icon";
 
 export const WhyChoose = () => {
 	return (
-		<section className="bg-primary text-white py-16 px-20">
+		<section className="bg-primary text-white py-16 px-10 md:px-20">
 			<p className="font-light text-center md:text-start">WHY CHOOSE US?</p>
 			<p className="mt-5 text-center md:text-start text-3xl md:text-6xl font-bold">
 				We care about details and the quality of our products
