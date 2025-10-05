@@ -1,6 +1,6 @@
 # Dekoor Landing Page
 
-Ini adalah landing page untuk **Dekoor**, dibangun dengan React, Vite, TailwindCSS, dan SwiperJS. Project ini merupakan test untuk Frontend Developer Internship di Sekawan Media
+Ini adalah landing page untuk **Dekoor**, dibangun dengan React, Vite, TailwindCSS, dan SwiperJS.
 
 ## 🛠️ Teknologi yang Digunakan
 
